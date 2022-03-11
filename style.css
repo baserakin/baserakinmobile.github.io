@@ -1,0 +1,2469 @@
+*{
+    padding: 0;
+    margin: auto;
+    background-size: 100%;
+
+
+}
+body {
+    background-image: url(img/duvar.png);
+    font-family: sans-serif;
+    padding: 0;
+    margin: auto;
+    
+}
+.bar1{
+    background: rgb(8, 8, 8);
+    text-align:center;
+    font-size: 22px;
+    width: 100%;
+    position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom-color: white;
+    border-style: solid;
+    height: 90px;
+
+}
+.bar1 ul {
+    display: inline-flex;
+    list-style: none;
+    
+
+}
+.bar1 ul li{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+
+}
+.bar1 ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+}
+.active, .bar1 ul li:hover{
+background: red;
+border-radius: 15px;
+}
+.bar1 .fa-brands{
+    margin-right: 8px;
+}
+.bar1 .fa-solid{
+    margin-right: 8px;
+}
+
+.btn1{
+    background-image: url(img/palmer.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 15%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn1::before{
+    content:'Palmer';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+
+}
+.btn1:hover::before{
+    top: 80px;
+
+}
+.active, .btn1:hover{
+    background-color: white;
+    opacity: 0.6;
+   
+}
+
+.btn2{
+    background-image: url(img/gora.png);
+    width: 20%;
+    height: 16%;
+    top: 15%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+    background-size: 100%;
+}
+.btn2::before{
+    content:'Gora';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+}
+.btn2:hover::before{
+    top: 80px;
+
+}
+.active, .btn2:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn3{
+    background-image: url(img/realsteel.png);
+
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 15%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn3::before{
+    content:'Real Steel';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn3:hover::before{
+    top: 80px;
+
+}
+.active, .btn3:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn4{
+    background-image: url(img/hokkabaz.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 15%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn4::before{
+    content:'Hokkabaz';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn4:hover::before{
+    top: 80px;
+
+}
+.active, .btn4:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn5{
+    background-image: url(img/sherlock.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 40%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn5::before{
+    content:'Sherlock Holmes';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn5:hover::before{
+    top: 80px;
+
+}
+.active, .btn5:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn6{
+    background-image: url(img/avatar.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 40%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn6::before{
+    content:'Avatar';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn6:hover::before{
+    top: 80px;
+
+}
+.active, .btn6:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn7{
+    background-image: url(img/Untitled-1.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 40%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn7::before{
+    content:'Geleceğe Dönüş';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn7:hover::before{
+    top: 80px;
+
+}
+.active, .btn7:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn8{
+    background-image: url(img/lotr.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 40%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn8::before{
+    content:'LOTR';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn8:hover::before{
+    top: 80px;
+
+}
+.active, .btn8:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn9{
+    background-image: url(img/yahsibati.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 65%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn9::before{
+    content:'Yahşi Batı';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn9:hover::before{
+    top: 80px;
+
+}
+.active, .btn9:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn10{
+    background-image: url(img/aykut.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 65%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn10::before{
+    content:'Aykut Enişte';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn10:hover::before{
+    top: 80px;
+
+}
+.active, .btn10:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn11{
+    background-image: url(img/olumludunya.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 65%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn11::before{
+    content:'Ölümlü Dünya';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn11:hover::before{
+    top: 80px;
+
+}
+.active, .btn11:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn12{
+    background-image: url(img/terminatör.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 65%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn12::before{
+    content:'Terminatör';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 60%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn12:hover::before{
+    top: 80px;
+
+}
+.active, .btn12:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn13{
+    background-image: url(img/jurassicpark.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 90%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn13::before{
+    content:'Jurassic Park';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn13:hover::before{
+    top: 80px;
+
+}
+.active, .btn13:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn14{
+    background-image: url(img/legend.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 90%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn14::before{
+    content:'I am Legend';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn14:hover::before{
+    top: 80px;
+
+}
+.active, .btn14:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn15{
+    background-image: url(img/amazingspiderman.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 90%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn15::before{
+    content:'TASM';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn15:hover::before{
+    top: 80px;
+
+}
+.active, .btn15:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn16{
+    background-image: url(img/baywatch.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 90%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn16::before{
+    content:'Baywatch';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn16:hover::before{
+    top: 80px;
+
+}
+.active, .btn16:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn17{
+    background-image: url(img/batman.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 115%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn17::before{
+    content:'Batman';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn17:hover::before{
+    top: 80px;
+
+}
+.active, .btn17:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn18{
+    background-image: url(img/interstellar.png);
+    
+    background-size: 100%;
+    width: 20%;
+    height: 16%;
+    top: 115%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn18::before{
+    content:'Yıldızlar Arası';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn18:hover::before{
+    top: 80px;
+
+}
+.active, .btn18:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn19{
+    background-image: url(img/percy.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 115%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn19::before{
+    content:'Percy Jackson ve Olimposlular';
+    font-family: sans-serif;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn19:hover::before{
+    top: 80px;
+
+}
+.active, .btn19:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn20{
+    background-image: url(img/mission.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 15%;
+    top: 115%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn20::before{
+    content:'Mission İmpossible';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn20:hover::before{
+    top: 80px;
+
+}
+.active, .btn20:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn21{
+    background-image: url(img/dirtygrandpa.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 140%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn21::before{
+    content:'Çılgın İhtiyar';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn21:hover::before{
+    top: 80px;
+
+}
+.active, .btn21:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn22{
+    background-image: url(img/friends.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 140%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn22::before{
+    content:'Arkadaştan Öte';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+}
+.btn22:hover::before{
+    top: 80px;
+
+}
+.active, .btn22:hover{
+    background-color: white;
+    opacity: 0.6;
+   
+}
+
+.btn23{
+    background-image: url(img/spiderman.png);
+    width: 20%;
+    height: 16%;
+    top: 140%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn23::before{
+    content:'Spiderman';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+}
+.btn23:hover::before{
+    top: 80px;
+
+}
+.active, .btn23:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn24{
+    background-image: url(img/gladiatör.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 140%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn24::before{
+    content:'Gladiator';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn24:hover::before{
+    top: 80px;
+
+}
+.active, .btn24:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn25{
+    background-image: url(img/journey.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 165%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn25::before{
+    content:'Dünyanın Merkezine Yolculuk';
+    font-family: sans-serif;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn25:hover::before{
+    top: 80px;
+
+}
+.active, .btn25:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn26{
+    background-image: url(img/martian.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 165%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn26::before{
+    content:'Marslı';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn26:hover::before{
+    top: 80px;
+
+}
+.active, .btn26:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn27 {
+    background-image: url(img/narnia.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 165%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn27::before{
+    content:'Narnia Günlükleri';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn27:hover::before{
+    top: 80px;
+
+}
+.active, .btn27:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn28{
+    background-image: url(img/sanandreas.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 165%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn28::before{
+    content:'San Andreas Fayı';
+    font-family: sans-serif;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn28:hover::before{
+    top: 80px;
+
+}
+.active, .btn28:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn29{
+    background-image: url(img/waterworld.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 190%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn29::before{
+    content:'Water World';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+
+}
+.btn29:hover::before{
+    top: 80px;
+
+}
+.active, .btn29:hover{
+    background-color: white;
+    opacity: 0.6;
+   
+}
+
+.btn30{
+    background-image: url(img/hobbit.png);
+    width: 20%;
+    height: 16%;
+    top: 190%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn30::before{
+    content:'Hobbit';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+}
+.btn30:hover::before{
+    top: 80px;
+
+}
+.active, .btn30:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn31{
+    background-image: url(img/007.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 190%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn31::before{
+    content:'Skyfall';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn31:hover::before{
+    top: 80px;
+
+}
+.active, .btn31:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn32{
+    background-image: url(img/17again.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 190%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn32::before{
+    content:'17 Yeniden';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn32:hover::before{
+    top: 80px;
+
+}
+.active, .btn32:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn33{
+    background-image: url(img/2012.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 215%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn33::before{
+    content:'2012';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn33:hover::before{
+    top: 80px;
+
+}
+.active, .btn33:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn34{
+    background-image: url(img/afterearth.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 215%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn34::before{
+    content:'After Earth';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn34:hover::before{
+    top: 80px;
+
+}
+.active, .btn34:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn35{
+    background-image: url(img/athur.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 215%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn35::before{
+    content:'Arthur ve Minimoylar';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn35:hover::before{
+    top: 80px;
+
+}
+.active, .btn35:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn36{
+    background-image: url(img/babydriver.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 215%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn36::before{
+    content:'Baby Driver';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+
+}
+.btn36:hover::before{
+    top: 80px;
+
+}
+.active, .btn36:hover{
+    background-color: white;
+    opacity: 0.6;
+   
+}
+
+.btn37{
+    background-image: url(img/barryseal.png);
+    width: 20%;
+    height: 16%;
+    top: 240%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn37::before{
+    content:'Barry Seal';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+}
+.btn37:hover::before{
+    top: 80px;
+
+}
+.active, .btn37:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn38{
+    background-image: url(img/benjaminbutton.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 240%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn38::before{
+    content:'Benjamin Button';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn38:hover::before{
+    top: 80px;
+
+}
+.active, .btn38:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn39{
+    background-image: url(img/birdbox.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 240%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn39::before{
+    content:'Bird Box';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn39:hover::before{
+    top: 80px;
+
+}
+.active, .btn39:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn40{
+    background-image: url(img/cars.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 240%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn40::before{
+    content:'Arabalar';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn40:hover::before{
+    top: 80px;
+
+}
+.active, .btn40:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn41{
+    background-image: url(img/castaway.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 265%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn41::before{
+    content:'Yeni Hayat';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn41:hover::before{
+    top: 80px;
+
+}
+.active, .btn41:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn42{
+    background-image: url(img/charlisstcloud.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 265%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn42::before{
+    content:'Charlie St Cloud';
+    font-family: sans-serif;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn42:hover::before{
+    top: 80px;
+
+}
+.active, .btn42:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn43{
+    background-image: url(img/cinayetsüsü.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 265%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn43::before{
+    content:'Cinayet Süsü';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+
+}
+.btn43:hover::before{
+    top: 80px;
+
+}
+.active, .btn43:hover{
+    background-color: white;
+    opacity: 0.6;
+   
+}
+
+.btn44{
+    background-image: url(img/clashoftitans.png);
+    width: 20%;
+    height: 16%;
+    top: 265%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn44::before{
+    content:'Clash of Titans';
+    font-family: sans-serif;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+}
+.btn44:hover::before{
+    top: 80px;
+
+}
+.active, .btn44:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn45{
+    background-image: url(img/dinosour.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 290%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn45::before{
+    content:'Dinozor';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn45:hover::before{
+    top: 80px;
+
+}
+.active, .btn45:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn46{
+    background-image: url(img/dolittle.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 290%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn46::before{
+    content:'Dolittle';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn46:hover::before{
+    top: 80px;
+
+}
+.active, .btn46:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn47{
+    background-image: url(img/edgeof.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 290%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn47::before{
+    content:'Edge of Tomorrow';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn47:hover::before{
+    top: 80px;
+
+}
+.active, .btn47:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn48{
+    background-image: url(img/enders\ game.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 290%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn48::before{
+    content:'Enders Game';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn48:hover::before{
+    top: 80px;
+
+}
+.active, .btn48:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn49{
+    background-image: url(img/yolarkadasim.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 315%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn49::before{
+    content:'Yol Arkadaşım';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn49:hover::before{
+    top: 80px;
+
+}
+.active, .btn49:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn50{
+    background-image: url(img/yogibear.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 315%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn50::before{
+    content:'Ayı Yogi';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn50:hover::before{
+    top: 80px;
+
+}
+.active, .btn50:hover{
+    background-color: white;
+    opacity: 0.6;
+   
+}
+
+.btn51{
+    background-image: url(img/warofworlds.png);
+    width: 20%;
+    height: 16%;
+    top: 315%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn51::before{
+    content:'Dünyalar Savaşı';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+}
+.btn51:hover::before{
+    top: 80px;
+
+}
+.active, .btn51:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn52{
+    background-image: url(img/walkwithdino.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 315%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn52::before{
+    content:'Dinozorlarla Yürümek';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn52:hover::before{
+    top: 80px;
+
+}
+.active, .btn52:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn53{
+    background-image: url(img/venom.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 340%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn53::before{
+    content:'Venom';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn53:hover::before{
+    top: 80px;
+
+}
+.active, .btn53:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn54{
+    background-image: url(img/spiderverse.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 340%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn54::before{
+    content:'Spiderman into the Spiderverse';
+    font-family: sans-serif;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn54:hover::before{
+    top: 80px;
+
+}
+.active, .btn54:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn55{
+    background-image: url(img/skycrapper.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 340%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn55::before{
+    content:'Gökdelen';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn55:hover::before{
+    top: 80px;
+
+}
+.active, .btn55:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn56{
+    background-image: url(img/tomorrowwar.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 340%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn56::before{
+    content:'The Tomorrow War';
+    font-family: sans-serif;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn56:hover::before{
+    top: 80px;
+
+}
+.active, .btn56:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn57{
+    background-image: url(img/uyumsuz.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 365%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn57::before{
+    content:'Uyumsuz';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+
+}
+.btn57:hover::before{
+    top: 80px;
+
+}
+.active, .btn57:hover{
+    background-color: white;
+    opacity: 0.6;
+   
+}
+
+.btn58{
+    background-image: url(img/tarzan.png);
+    width: 20%;
+    height: 16%;
+    top: 365%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn58::before{
+    content:'Tarzan';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+}
+.btn58:hover::before{
+    top: 80px;
+
+}
+.active, .btn58:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn59{
+    background-image: url(img/shrek.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 365%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn59::before{
+    content:'Shrek';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn59:hover::before{
+    top: 80px;
+
+}
+.active, .btn59:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn60{
+    background-image: url(img/sessizbiryer.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 365%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn60::before{
+    content:'Sessiz Bir Yer';
+    font-family: sans-serif;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn60:hover::before{
+    top: 80px;
+
+}
+.active, .btn60:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn61{
+    background-image: url(img/ready.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 390%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn61::before{
+    content:'Ready Player One';
+    font-family: sans-serif;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn61:hover::before{
+    top: 80px;
+
+}
+.active, .btn61:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn62{
+    background-image: url(img/rango.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 390%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn62::before{
+    content:'Rango';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn62:hover::before{
+    top: 80px;
+
+}
+.active, .btn62:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.btn63{
+    background-image: url(img/prestige.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 390%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn63::before{
+    content:'The Prestige';
+    font-family: sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn63:hover::before{
+    top: 80px;
+
+}
+.active, .btn63:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn64{
+    background-image: url(img/noah.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 390%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn64::before{
+    content:'Noah';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn64:hover::before{
+    top: 80px;
+
+}
+.active, .btn64:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn65{
+    background-image: url(img/noah.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 415%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn65::before{
+    content:'#';
+    font-family: sans-serif;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn65:hover::before{
+    top: 80px;
+
+}
+.active, .btn65:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn66{
+    background-image: url(img/noah.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 415%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn66::before{
+    content:'#';
+    font-family: sans-serif;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn66:hover::before{
+    top: 80px;
+
+}
+.active, .btn66:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn67{
+    background-image: url(img/noah.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 415%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn67::before{
+    content:'#';
+    font-family: sans-serif;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn64:hover::before{
+    top: 80px;
+
+}
+.active, .btn67:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn68{
+    background-image: url(img/noah.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 415%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn68::before{
+    content:'#';
+    font-family: sans-serif;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn68:hover::before{
+    top: 80px;
+
+}
+.active, .btn68:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn69{
+    background-image: url(img/noah.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 440%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn69::before{
+    content:'#';
+    font-family: sans-serif;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn69:hover::before{
+    top: 80px;
+
+}
+.active, .btn69:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn70{
+    background-image: url(img/noah.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 440%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn70::before{
+    content:'#';
+    font-family: sans-serif;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn70:hover::before{
+    top: 80px;
+
+}
+.active, .btn70:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+
+
+
+
