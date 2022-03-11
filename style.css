@@ -15,7 +15,7 @@ body {
 .bar1{
     background: rgb(8, 8, 8);
     text-align:center;
-    font-size: 22px;
+    font-size: 18px;
     width: 100%;
     position: relative;
     position: fixed;
@@ -23,7 +23,7 @@ body {
     z-index: 1;
     border-bottom-color: white;
     border-style: solid;
-    height: 90px;
+    height: 80px;
 
 }
 .bar1 ul {
@@ -34,8 +34,8 @@ body {
 }
 .bar1 ul li{
     width: 100%;
-    margin: 10px;
-    padding: 5px;
+    margin: 8px;
+    padding: 8px;
     text-align: center;
 
 }
