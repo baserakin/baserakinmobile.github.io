@@ -2226,7 +2226,7 @@ border-radius: 15px;
 .btn64{
     background-image: url(img/noah.png);
     
-   image-resolution: 0%;
+    image-resolution: 0%;
     width: 20%;
     height: 16%;
     top: 390%;
@@ -2259,7 +2259,7 @@ border-radius: 15px;
 }
  
 .btn65{
-    background-image: url(img/noah.png);
+    background-image: url(img/ica\ age.png);
     
    image-resolution: 0%;
     width: 20%;
@@ -2272,10 +2272,10 @@ border-radius: 15px;
     margin: auto;
 }
 .btn65::before{
-    content:'#';
+    content:'Buz Devri';
     font-family: sans-serif;
     position: absolute;
-    top: 110%;
+    top: 121%;
     left: 50%;
     transform:translate(-50%,-50%) ;
     font-size: 20px;
@@ -2293,7 +2293,7 @@ border-radius: 15px;
     opacity: 0.6;
 }
 .btn66{
-    background-image: url(img/noah.png);
+    background-image: url(img/upgrade.png);
     
    image-resolution: 0%;
     width: 20%;
@@ -2306,10 +2306,10 @@ border-radius: 15px;
     margin: auto;
 }
 .btn66::before{
-    content:'#';
+    content:'Upgrade';
     font-family: sans-serif;
     position: absolute;
-    top: 110%;
+    top: 113%;
     left: 50%;
     transform:translate(-50%,-50%) ;
     font-size: 20px;
@@ -2327,7 +2327,7 @@ border-radius: 15px;
     opacity: 0.6;
 }
 .btn67{
-    background-image: url(img/noah.png);
+    background-image: url(img/warz.png);
     
    image-resolution: 0%;
     width: 20%;
@@ -2340,10 +2340,10 @@ border-radius: 15px;
     margin: auto;
 }
 .btn67::before{
-    content:'#';
+    content:'Dünya Savaşı Z';
     font-family: sans-serif;
     position: absolute;
-    top: 110%;
+    top: 127%;
     left: 50%;
     transform:translate(-50%,-50%) ;
     font-size: 20px;
@@ -2361,7 +2361,7 @@ border-radius: 15px;
     opacity: 0.6;
 }
 .btn68{
-    background-image: url(img/noah.png);
+    background-image: url(img/traindragon.png);
     
    image-resolution: 0%;
     width: 20%;
@@ -2374,13 +2374,13 @@ border-radius: 15px;
     margin: auto;
 }
 .btn68::before{
-    content:'#';
+    content:'How To Train Your Dragon';
     font-family: sans-serif;
     position: absolute;
-    top: 110%;
+    top: 121%;
     left: 50%;
     transform:translate(-50%,-50%) ;
-    font-size: 20px;
+    font-size: 15px;
     transition: all 0.5s;
     color: white;
     text-align: center;
@@ -2395,7 +2395,7 @@ border-radius: 15px;
     opacity: 0.6;
 }
 .btn69{
-    background-image: url(img/noah.png);
+    background-image: url(img/robots.png);
     
    image-resolution: 0%;
     width: 20%;
@@ -2408,10 +2408,10 @@ border-radius: 15px;
     margin: auto;
 }
 .btn69::before{
-    content:'#';
+    content:'Robots';
     font-family: sans-serif;
     position: absolute;
-    top: 110%;
+    top: 113%;
     left: 50%;
     transform:translate(-50%,-50%) ;
     font-size: 20px;
@@ -2429,7 +2429,7 @@ border-radius: 15px;
     opacity: 0.6;
 }
 .btn70{
-    background-image: url(img/noah.png);
+    background-image: url(img/titanic.png);
     
    image-resolution: 0%;
     width: 20%;
@@ -2442,10 +2442,10 @@ border-radius: 15px;
     margin: auto;
 }
 .btn70::before{
-    content:'#';
+    content:'Titanic';
     font-family: sans-serif;
     position: absolute;
-    top: 110%;
+    top: 113%;
     left: 50%;
     transform:translate(-50%,-50%) ;
     font-size: 20px;
@@ -2463,7 +2463,2641 @@ border-radius: 15px;
     opacity: 0.6;
 }
  
+.btn71{
+    background-image: url(img/surfs\ up.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 440%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn71::before{
+    content:'Neşeli Dalgalar';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
 
+}
+.btn71:hover::before{
+    top: 80px;
 
+}
+.active, .btn71:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn72{
+    background-image: url(img/sampiyon.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 440%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn72::before{
+    content:'Bizim İçin Şampiyon';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
 
+}
+.btn72:hover::before{
+    top: 80px;
 
+}
+.active, .btn72:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn73{
+    background-image: url(img/robinhood.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 465%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn73::before{
+    content:'Robin Hood';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn73:hover::before{
+    top: 80px;
+
+}
+.active, .btn73:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn74{
+    background-image: url(img/perkyakinda.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 465%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn74::before{
+    content:'Pek Yakında';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn74:hover::before{
+    top: 80px;
+
+}
+.active, .btn74:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn75{
+    background-image: url(img/mazerunner.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 465%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn75::before{
+    content:'Maze Runner';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn75:hover::before{
+    top: 80px;
+
+}
+.active, .btn75:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn76{
+    background-image: url(img/lemonademouth.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 465%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn76::before{
+    content:'Lemonade Mouth';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn76:hover::before{
+    top: 80px;
+
+}
+.active, .btn76:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn77{
+    background-image: url(img/luckyone.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 490%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn77::before{
+    content:'Şanslı Biri';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn77:hover::before{
+    top: 80px;
+
+}
+.active, .btn77:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn78{
+    background-image: url(img/junglecruise.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 490%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn78::before{
+    content:'Jungle Cruise';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn78:hover::before{
+    top: 80px;
+
+}
+.active, .btn78:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn79{
+    background-image: url(img/jackreacher.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 490%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn79::before{
+    content:'Jack Reacher';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn79:hover::before{
+    top: 80px;
+
+}
+.active, .btn79:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn80{
+    background-image: url(img/fordvferrari.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 490%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn80::before{
+    content:'Ford V Ferrari';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn80:hover::before{
+    top: 80px;
+
+}
+.active, .btn80:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn81{
+    background-image: url(img/fokus.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 515%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn81::before{
+    content:'Fokus';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.bt81:hover::before{
+    top: 80px;
+
+}
+.active, .btn81:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn82{
+    background-image: url(img/extraction.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 515%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn82::before{
+    content:'Extraction';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn82:hover::before{
+    top: 80px;
+
+}
+.active, .btn82:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn83{
+    background-image: url(img/geostorm.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 515%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn83::before{
+    content:'Geostorm';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn83:hover::before{
+    top: 80px;
+
+}
+.active, .btn83:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn84{
+    background-image: url(img/godsofegypt.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 515%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn84::before{
+    content:'Gods of Egypt';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn84:hover::before{
+    top: 80px;
+
+}
+.active, .btn84:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn85{
+    background-image: url(img/valerian.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 540%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn85::before{
+    content:'Valerian Bin Gezegen İmparatorluğu';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn85:hover::before{
+    top: 80px;
+
+}
+.active, .btn85:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn86{
+    background-image: url(img/greenlantern.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 540%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn86::before{
+    content:'Green Lantern';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn86:hover::before{
+    top: 80px;
+
+}
+.active, .btn86:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn87{
+    background-image: url(img/harrypotter.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 540%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn87::before{
+    content:'Harry Potter';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn87:hover::before{
+    top: 80px;
+
+}
+.active, .btn87:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn88{
+    background-image: url(img/johncarter.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 540%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn88::before{
+    content:'John Carter';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.bt88:hover::before{
+    top: 80px;
+
+}
+.active, .btn88:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn89{
+    background-image: url(img/joker.png);
+    
+   
+    width: 20%;
+    height: 16%;
+    top: 565%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn89::before{
+    content:'Joker';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn89:hover::before{
+    top: 80px;
+
+}
+.active, .btn89:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn90{
+    background-image: url(img/jurassicworld.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 565%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn90::before{
+    content:'Jurassic World';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn90:hover::before{
+    top: 80px;
+
+}
+.active, .btn90:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn91{
+    background-image: url(img/karatekid.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 565%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn91::before{
+    content:'Karate Kid';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn91:hover::before{
+    top: 80px;
+
+}
+.active, .btn911:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn92{
+    background-image: url(img/madmax.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 565%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn92::before{
+    content:'Mad Max';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn92:hover::before{
+    top: 80px;
+
+}
+.active, .btn92:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn93{
+    background-image: url(img/meg.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 590%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn93::before{
+    content:'The Meg';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn93:hover::before{
+    top: 80px;
+
+}
+.active, .btn93:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn94{
+    background-image: url(img/neighbours.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 590%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn94::before{
+    content:'Kötü Komşular';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn94:hover::before{
+    top: 80px;
+
+}
+.active, .btn94:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn95{
+    background-image: url(img/neşeli\ ayaklar.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 590%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn95::before{
+    content:'Neşeli Ayaklar';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.bt95:hover::before{
+    top: 80px;
+
+}
+.active, .btn95:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn96{
+    background-image: url(img/olanlaroldu.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 590%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn96::before{
+    content:'Olanlar Oldu';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn96:hover::before{
+    top: 80px;
+
+}
+.active, .btn96:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn97{
+    background-image: url(img/oblivion.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 615%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn97::before{
+    content:'Oblivion';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn97:hover::before{
+    top: 80px;
+
+}
+.active, .btn97:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn98{
+    background-image: url(img/extreme.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 615%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn98::before{
+    content:'Extremely Wicked Shockingly Evil And Vile';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 15px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+    
+}
+.btn98:hover::before{
+    top: 80px;
+
+}
+.active, .btn98:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn99{
+    background-image: url(img/caribbean.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 615%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn99::before{
+    content:'Karayip Korsanları';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn99:hover::before{
+    top: 80px;
+
+}
+.active, .btn99:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn100{
+    background-image: url(img/green\ mile.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 615%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn100::before{
+    content:'Yeşil Yol';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn100:hover::before{
+    top: 80px;
+
+}
+.active, .btn100:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn101{
+    background-image: url(img/intime.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 640%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn101::before{
+    content:'Zamana Karşı';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn101:hover::before{
+    top: 80px;
+
+}
+.active, .btn101:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn102{
+    background-image: url(img/matrix.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 640%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn102::before{
+    content:'Matrix';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.bt102:hover::before{
+    top: 80px;
+
+}
+.active, .btn102:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn103{
+    background-image: url(img/meymun.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 640%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn103::before{
+    content:'Maymunlar Cehennemi';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn103:hover::before{
+    top: 80px;
+
+}
+.active, .btn103:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn104{
+    background-image: url(img/mummy.png);
+    
+  
+    width: 20%;
+    height: 16%;
+    top: 640%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn104::before{
+    content:'Mumya';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn104:hover::before{
+    top: 80px;
+
+}
+.active, .btn104:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn105{
+    background-image: url(img/6underground.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 665%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn105::before{
+    content:'6 Underground';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn105:hover::before{
+    top: 80px;
+
+}
+.active, .btn105:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn106{
+    background-image: url(img/adamproject.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 665%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn106::before{
+    content:'The Adam Project';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn106:hover::before{
+    top: 80px;
+
+}
+.active, .btn106:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn107{
+    background-image: url(img/whenwefirstmet.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 665%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn107::before{
+    content:'İlk Tanıştığımız Gece';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn107:hover::before{
+    top: 80px;
+
+}
+.active, .btn107:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn108{
+    background-image: url(img/vizontele.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 665%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn108::before{
+    content:'Vizontele';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn108:hover::before{
+    top: 80px;
+
+}
+.active, .btn108:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn109{
+    background-image: url(img/tetikciningecesi.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 690%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn109::before{
+    content:'Tetikçinin Gecesi';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.bt109:hover::before{
+    top: 80px;
+
+}
+.active, .btn109:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn110{
+    background-image: url(img/tron.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 690%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn110::before{
+    content:'Tron Efsanesi';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn110:hover::before{
+    top: 80px;
+
+}
+.active, .btn10:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn111{
+    background-image: url(img/shallows.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 690%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn111::before{
+    content:'Shallows';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn111:hover::before{
+    top: 80px;
+
+}
+.active, .btn111:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn112{
+    background-image: url(img/rednotice.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 690%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn112::before{
+    content:'Kırmızı Bülten';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn112:hover::before{
+    top: 80px;
+
+}
+.active, .btn112:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn113{
+    background-image: url(img/mutluson.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 715%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn113::before{
+    content:'Patron Mutlu Son İstiyor';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 15px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn113:hover::before{
+    top: 80px;
+
+}
+.active, .btn113:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn114{
+    background-image: url(img/loveandmonsters.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 715%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn114::before{
+    content:'Aşk ve Canavarlar';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn114:hover::before{
+    top: 80px;
+
+}
+.active, .btn114:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn115{
+    background-image: url(img/kucukesnaf.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 715%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn115::before{
+    content:'Küçük Esnaf';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn115:hover::before{
+    top: 80px;
+
+}
+.active, .btn115:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn116{
+    background-image: url(img/oldguard.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 715%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn116::before{
+    content:'The Old Guard';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.bt116:hover::before{
+    top: 80px;
+
+}
+.active, .btn116:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn117{
+    background-image: url(img/organizeisler.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 740%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn117::before{
+    content:'Organize İşler';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn117:hover::before{
+    top: 80px;
+
+}
+.active, .btn117:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn118{
+    background-image: url(img/pacificrim.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 740%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn118::before{
+    content:'Pasifik Savaşı';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn118:hover::before{
+    top: 80px;
+
+}
+.active, .btn118:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn119{
+    background-image: url(img/passengers.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 740%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn119::before{
+    content:'Uzay Yolcuları';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn119:hover::before{
+    top: 80px;
+
+}
+.active, .btn119:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn120{
+    background-image: url(img/senbenim.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 740%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn120::before{
+    content:'Sen Benim Her Şeyimsin';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 15px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn120:hover::before{
+    top: 80px;
+
+}
+.active, .btn120:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn121{
+    background-image: url(img/shazam.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 765%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn121::before{
+    content:'Shazam! 6 Güç';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn121:hover::before{
+    top: 80px;
+
+}
+.active, .btn121:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn122{
+    background-image: url(img/transformers.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 765%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn122::before{
+    content:'Transformers';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn122:hover::before{
+    top: 80px;
+
+}
+.active, .btn122:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn123{
+    background-image: url(img/uncutgems.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top:765%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn123::before{
+    content:'Uncut Gems';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn123:hover::before{
+    top: 80px;
+
+}
+.active, .btn123:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn124{
+    background-image: url(img/irishman.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 765%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn124::before{
+    content:'The Irishman';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn124:hover::before{
+    top: 80px;
+
+}
+.active, .btn124:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn125{
+    background-image: url(img/iftarlikgazoz.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 790%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn125::before{
+    content:'İftarlık Gazoz';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn125:hover::before{
+    top: 80px;
+
+}
+.active, .btn125:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn126{
+    background-image: url(img/nowyouseeme.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 790%;
+    position: absolute;
+    left:28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn126::before{
+    content:'Sihirbazlar Çetesi';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn126:hover::before{
+    top: 80px;
+
+}
+.active, .btn126:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn127{
+    background-image: url(img/manofsteel.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 790%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn127::before{
+    content:'Çelik Adam';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn127:hover::before{
+    top: 80px;
+
+}
+.active, .btn127:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn128{
+    background-image: url(img/kongskullislans.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 790%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn128::before{
+    content:'Kong: Kafatası Adası';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn128:hover::before{
+    top: 80px;
+
+}
+.active, .btn128:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn129{
+    background-image: url(img/kardesimbenim.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 815%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn129::before{
+    content:'Kardeşim Benim';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn129:hover::before{
+    top: 80px;
+
+}
+.active, .btn129:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn130{
+    background-image: url(img/johnwick.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 815%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn130::before{
+    content:'John Wick';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.bt130:hover::before{
+    top: 80px;
+
+}
+.active, .btn130:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn131{
+    background-image: url(img/iammother.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 815%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn131::before{
+    content:'I Am Mother';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn131:hover::before{
+    top: 80px;
+
+}
+.active, .btn131:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn132{
+    background-image: url(img/herseycokguzelolacak.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 815%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn132::before{
+    content:'Her Şey Çok Güzel Olacak';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 15px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn132:hover::before{
+    top: 80px;
+
+}
+.active, .btn132:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn133{
+    background-image: url(img/everest.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 840%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn133::before{
+    content:'Everest';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn133:hover::before{
+    top: 80px;
+
+}
+.active, .btn133:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn134{
+    background-image: url(img/escapeplan.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 840%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn134::before{
+    content:'Kaçış Planı';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn134:hover::before{
+    top: 80px;
+
+}
+.active, .btn134:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn135{
+    background-image: url(img/cebimdekiyabanci.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 840%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn135::before{
+    content:'Cebimdeki Yabancı';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn135:hover::before{
+    top: 80px;
+
+}
+.active, .btn135:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn136{
+    background-image: url(img/cargo.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top:840%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn136::before{
+    content:'Cargo';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn136:hover::before{
+    top: 80px;
+
+}
+.active, .btn136:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn137{
+    background-image: url(img/awake.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 865%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn137::before{
+    content:'Awake';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn137:hover::before{
+    top: 80px;
+
+}
+.active, .btn137:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn138{
+    background-image: url(img/avmevsimi.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 865%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn138::before{
+    content:'Av Mevsimi';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn138:hover::before{
+    top: 80px;
+
+}
+.active, .btn138:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn139{
+    background-image: url(img/armyofdead.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 865%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn139::before{
+    content:'Ölüler Ordusu';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn139:hover::before{
+    top: 80px;
+
+}
+.active, .btn139:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn140{
+    background-image: url(img/aquaman.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 865%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn140::before{
+    content:'Aquaman';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn140:hover::before{
+    top: 80px;
+
+}
+.active, .btn140:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn141{
+    background-image: url(img/alibabaveyedicüceler.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 890%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn141::before{
+    content:'Ali Baba Ve Yedi Cüceler';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 15px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn141:hover::before{
+    top: 80px;
+
+}
+.active, .btn141:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
+.btn142{
+    background-image: url(img/cakallarladans.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 890%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn142::before{
+    content:'Çakallarla Dans';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn142:hover::before{
+    top: 80px;
+
+}
+.active, .btn142:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn143{
+    background-image: url(img/bladerunner2049.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 890%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn143::before{
+    content:'Blade Runner 2049';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn143:hover::before{
+    top: 80px;
+
+}
+.active, .btn143:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn144{
+    background-image: url(img/dangal.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 890%;
+    position: absolute;
+    left: 76%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn144::before{
+    content:'Dangal';
+    font-family: sans-serif;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.bt144:hover::before{
+    top: 80px;
+
+}
+.active, .btn144:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn145{
+    background-image: url(img/elysium.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 915%;
+    position: absolute;
+    left: 4%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn145::before{
+    content:'Elysium Yeni Cennet';
+    font-family: sans-serif;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn145:hover::before{
+    top: 80px;
+
+}
+.active, .btn145:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn146{
+    background-image: url(img/fightclub.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 915%;
+    position: absolute;
+    left: 28%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn146::before{
+    content:'Dövüş Kulübü';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn146:hover::before{
+    top: 80px;
+
+}
+.active, .btn146:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.btn147{
+    background-image: url(img/hedefimsensin.png);
+    
+   image-resolution: 0%;
+    width: 20%;
+    height: 16%;
+    top: 915%;
+    position: absolute;
+    left: 52%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+.btn147::before{
+    content:'Hedefim Sensin';
+    font-family: sans-serif;
+    position: absolute;
+    top: 121%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 20px;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+
+}
+.btn147:hover::before{
+    top: 80px;
+
+}
+.active, .btn147:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+ 
